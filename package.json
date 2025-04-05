@@ -1,0 +1,14 @@
+{
+    "name": "Curriculum",
+    "version": "1.0.0",
+    "description": "Ramon da Silva CV",
+    "scripts": {
+      "start": "eleventy --serve",
+      "build": "eleventy"
+    },
+    "devDependencies": {
+      "@11ty/eleventy": "^2.0.0"
+    },
+    "dependencies": {
+    }
+}

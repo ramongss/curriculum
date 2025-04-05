@@ -1,0 +1,93 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Corpo da página */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Container principal */
+main {
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: #1a1a1a;
+}
+
+h1 {
+  font-size: 2rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  border-bottom: 2px solid #ddd;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+/* Parágrafos e listas */
+p, li {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+blockquote {
+  font-style: italic;
+  color: #555;
+}
+
+/* Lista sem bullets para experiências etc */
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+ul li::before {
+  content: "•";
+  color: #0077cc;
+  font-weight: bold;
+  display: inline-block;
+  width: 1rem;
+  margin-left: -1rem;
+}
+
+/* Links */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Separadores */
+section + section {
+  margin-top: 3rem;
+  border-top: 1px solid #ddd;
+  padding-top: 2rem;
+}
+
+code {
+  display: block;
+  font-size: 0.5px;
+  color: white;
+}
