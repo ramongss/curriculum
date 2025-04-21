@@ -69,6 +69,5 @@ Data Scientist with 5 years of experience in developing data-driven solutions ac
 ## SKILLS
 
 * **Technologies**: Python, R, SAS, Spark, SQL, NoSQL, LaTeX, Git, AWS, Apache Hadoop, Apache Hive, Docker, Databricks, Agile Methodologies, Big Data.
-
 * **Soft skills**: Predictive Analytics, Statistics, Data Modelling, Data Visualization, Machine Learning, Data Driven, Problem Solving, Creativity, Teamwork, Leadership, Presentation Skills, Academic Writing.
 * **Languages**: Portuguese - Native, English - Proficient.
